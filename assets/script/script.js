@@ -20,7 +20,7 @@ function allClear () {
 // Append number to screen when number button pressed
 function appendNumber (number) {
   if (number === '.' && currentOperand.textContent.includes('.')) {
-    return
+    return number
   }
   let x = currentOperand.textContent += number
   x.toString
