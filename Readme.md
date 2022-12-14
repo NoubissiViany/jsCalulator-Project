@@ -31,7 +31,7 @@ Knowledge about:
 
 - $ git clone `git@github.com:NoubissiViany/jsCalculator-Project.git`
 - $ `cd Calculator-Project`
-- $ `git checkout feature/body`
+- $ `git checkout feature/Calculator`
 
 ## Start App
 
