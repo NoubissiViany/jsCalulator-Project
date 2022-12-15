@@ -20,12 +20,11 @@ function allClear () {
 // Append number to screen when number button pressed
 function appendNumber (number) {
   let x = currentOperand.textContent += number
-  x.toString
   if (
-    x[0] === '0' &&
-    x[1] === '0'
+    x.toString[0] === '0' &&
+    x.toString[1] === '0'
   ) {
-    x = '0'
+    x.toString = '0'
   }
 }
 
